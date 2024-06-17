@@ -1,7 +1,7 @@
 # Amazon-Database
 
 ## Overview
-The project implementation is divided into individual functions, each handling specific functionalities. The initial menu navigation has been expanded with an admin option and submenu navigation for each appropriate option. The `executeQueryAndPrintResults` function has been modified to better align column headers and values. Frequently used queries have been generalized into a helper function for modular implementation.
+This application is representative of an Amazon storefront management system where users can log in as customers, managers, or admins. Customers can view nearby stores, browse products, place orders, and view recent orders. Managers have additional functionalities to update product information, view recent product updates, see popular items and customers, and place supply requests to warehouses. Admins can manage user and product information. The application includes helper functions for tasks like selecting items based on distance, and optimizes database interactions with indexes to improve performance.
 
 ## Helper Functions
 
